@@ -1,0 +1,20 @@
+{
+    "manifest_version" : 2,
+
+    "name" : "Modify HTML and CSS",
+    "version" : "0.1.0",
+    "description" : "Lateral blog post extension",
+
+    "content_scripts" : [
+        {
+            "css" : ["home.css"],
+            "js" : ["home.js"],
+            "matches": ["https://edisciplinas.usp.br/"]
+        },
+        {
+            "css" : ["calendario.css"],
+            "js" : ["calendario.js"],
+            "matches": ["https://edisciplinas.usp.br/calendar/*"]
+        }
+    ]
+}
