@@ -13,4 +13,4 @@ for (var i = 0; i < a_tags.length; i++) {
 //Tabelas de dados sem o elemento caption
 var table_tag = document.getElementsByTagName("table")[0];
 table_tag.innerHTML =
-  "<caption> Tablea de eventos agendados </caption>" + table_tag.innerHTML;
+  "<caption> Tabela de eventos agendados </caption>" + table_tag.innerHTML;
