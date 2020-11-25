@@ -18,6 +18,7 @@
     },
     {
       "css": ["files.css"],
+      "js": ["files.js"],
       "matches": ["https://edisciplinas.usp.br/user/files.php"]
     }
   ]

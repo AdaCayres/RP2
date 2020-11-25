@@ -6,11 +6,11 @@ out_tag.innerHTML = new_tag.innerHTML;
 //Links com o mesmo texto afixado no conteúdo e no atributo title
 var a_tags = document.getElementsByTagName("a");
 
-for(var i = 0; i < a_tags.length; i++) {
-    a_tags[i].removeAttribute("title");
+for (var i = 0; i < a_tags.length; i++) {
+  a_tags[i].removeAttribute("title");
 }
 
 //Tabelas de dados sem o elemento caption
 var table_tag = document.getElementsByTagName("table")[0];
-table_tag.innerHTML = "<caption> Tablea de eventos agendados </caption>" + table_tag.innerHTML;
-
+table_tag.innerHTML =
+  "<caption> Tablea de eventos agendados </caption>" + table_tag.innerHTML;
