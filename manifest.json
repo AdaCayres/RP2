@@ -20,6 +20,11 @@
       "css": ["files.css"],
       "js": ["files.js"],
       "matches": ["https://edisciplinas.usp.br/user/files.php"]
+    },
+    {
+      "css": ["acessar.css"],
+      "js": ["acessar.js"],
+      "matches": ["https://edisciplinas.usp.br/acessar/"]
     }
   ]
 }
