@@ -1,0 +1,20 @@
+nav button.bg-gray {
+    background-color: #0A5771 !important;
+    border-color:  #0A5771 !important;
+}
+
+nav.navbar-bootswatch {
+    background-color: #0A5771 !important;
+}
+
+h5 > * {
+    color: #003785 !important;
+}
+
+li > * {
+    color: #003785 !important;
+}
+
+a.dropdown-toggle {
+    color: #fff !important;
+}

@@ -7,6 +7,10 @@
 
   "content_scripts": [
     {
+      "css": ["general.css"],
+      "matches": ["https://edisciplinas.usp.br/*"]
+    },
+    {
       "css": ["home.css"],
       "js": ["home.js"],
       "matches": ["https://edisciplinas.usp.br/"]
