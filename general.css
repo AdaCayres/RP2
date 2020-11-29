@@ -1,6 +1,6 @@
 nav button.bg-gray {
     background-color: #0A5771 !important;
-    border-color:  #0A5771 !important;
+    border-color: #0A5771 !important;
 }
 
 nav.navbar-bootswatch {
@@ -17,4 +17,12 @@ li > * {
 
 a.dropdown-toggle {
     color: #fff !important;
+}
+
+.activityinstance > a {
+    color: #003785 !important;
+}
+
+th > a {
+    color: #0A5771 !important;
 }
