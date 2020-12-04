@@ -5,3 +5,7 @@ div.media-body > h5 {
 i.mdi-lock {
     color: #FDAF2D !important;
 }
+
+div.inner-logo {
+    display: none !important;
+}
