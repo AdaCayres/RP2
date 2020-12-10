@@ -29,6 +29,10 @@
       "css": ["acessar.css"],
       "js": ["acessar.js"],
       "matches": ["https://edisciplinas.usp.br/acessar/*"]
+    },
+    {
+      "js": ["mensagens.js"],
+      "matches": ["https://edisciplinas.usp.br/message/index.php"]
     }
   ]
 }
