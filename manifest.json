@@ -28,7 +28,7 @@
     {
       "css": ["acessar.css"],
       "js": ["acessar.js"],
-      "matches": ["https://edisciplinas.usp.br/acessar/"]
+      "matches": ["https://edisciplinas.usp.br/acessar/*"]
     }
   ]
 }

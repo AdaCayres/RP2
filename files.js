@@ -4,7 +4,7 @@ for (var i = 0; i < a_tags.length; i++) {
   a_tags[i].removeAttribute("title");
 }
 
-element = document.getElementsByClassName("fp-value")[1];
+var element = document.getElementsByClassName("fp-value")[1];
 element.parentNode.removeChild(element);
 
 //Elementos fieldset sem descrição
