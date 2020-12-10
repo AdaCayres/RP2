@@ -22,10 +22,8 @@ a {
   color: #ffffff !important;
 }
 
-<<<<<<< HEAD
 i.fa {
   color: white !important;
-=======
 .submit-form {
   visibility: hidden;
 }
@@ -35,5 +33,4 @@ i.fa {
 }
 #form-fieldset2 {
   width: 100%;
->>>>>>> e4710027edeb3cde16c10c94acd451b2b81f8fca
 }

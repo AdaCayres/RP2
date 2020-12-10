@@ -4,21 +4,6 @@ for (var i = 0; i < a_tags.length; i++) {
   a_tags[i].removeAttribute("title");
 }
 
-<<<<<<< HEAD
-var element = document.getElementsByClassName("fp-value")[1];
-element.parentNode.removeChild(element);
-
-//Elementos fieldset sem descrição
-var fieldset_coursesearchbox = document.getElementsByClassName(
-  "coursesearchbox invisiblefieldset"
-);
-
-fieldset_coursesearchbox[0].innerHTML =
-  "<legend>Buscar disciplinas</legend>" + fieldset_coursesearchbox[0].innerHTML;
-fieldset_coursesearchbox[1].innerHTML =
-  "<legend>Acção buscar disciplinas</legend>" +
-  fieldset_coursesearchbox[1].innerHTML;
-=======
 window.onload = setTimeout(function () {
   //debugger;
   console.log(document);
@@ -76,4 +61,3 @@ window.onload = setTimeout(function () {
   var form5 = document.querySelector("#form-fieldset2");
   form3.appendChild(submit5);
 }, 5000);
->>>>>>> e4710027edeb3cde16c10c94acd451b2b81f8fca
