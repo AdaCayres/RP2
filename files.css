@@ -2,8 +2,11 @@
   background-color: #1094ab !important;
 }
 
-a {
-  color: #003785 !important;
+a.fp-path-folder-name,
+a.icon,
+.item-content-wrap,
+.icon.fa {
+  color: #003785;
 }
 
 .logininfo a {
@@ -23,7 +26,9 @@ a {
 }
 
 i.fa {
-  color: white !important;
+  color: white;
+}
+
 .submit-form {
   visibility: hidden;
 }
