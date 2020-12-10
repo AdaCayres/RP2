@@ -21,3 +21,14 @@ a {
 .navbar a {
   color: #ffffff !important;
 }
+
+.submit-form {
+  visibility: hidden;
+}
+
+#form-fieldset1 {
+  width: 100%;
+}
+#form-fieldset2 {
+  width: 100%;
+}
