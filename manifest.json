@@ -8,6 +8,7 @@
   "content_scripts": [
     {
       "css": ["general.css"],
+      "js" : ["geral.js"],
       "matches": ["https://edisciplinas.usp.br/*"]
     },
     {
@@ -33,6 +34,10 @@
     {
       "js": ["mensagens.js"],
       "matches": ["https://edisciplinas.usp.br/message/index.php"]
+    },
+    {
+      "js":["materias.js"],
+      "matches": ["https://edisciplinas.usp.br/course/view.php?id=*"]
     }
   ]
 }
